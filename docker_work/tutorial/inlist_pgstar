@@ -20,7 +20,7 @@
 
   ! save HR diagram to file
     HR_file_flag = .true.
-    HR_file_interval = 208
+    HR_file_interval = 20
 
   ! show temperature/density profile
   ! this plots the internal structure at single timestep
