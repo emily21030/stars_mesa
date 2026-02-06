@@ -29,6 +29,8 @@
 &controls
   ! see star/defaults/controls.defaults
 
+  min_timestep_limit = 1d-6
+
   ! options for energy conservation (see MESA V, Section 3)
   energy_eqn_option = 'dedt'
   use_gold_tolerances = .true.

@@ -12,7 +12,7 @@
 
   ! save a model at the end of the run
     save_model_when_terminate = .true.
-    save_model_filename = '15M_at_TAMS.mod'
+    save_model_filename = '15M_at_postMS.mod'
 
   ! display on-screen plots
     pgstar_flag = .true.
@@ -46,13 +46,8 @@
 
   ! when to stop
 
-    ! stop when the star nears ZAMS (Lnuc/L > 0.99)
-    Lnuc_div_L_zams_limit = 0.99d0
-    stop_near_zams = .false.
-
-    ! stop when the center mass fraction of h1 drops below this limit
-    xa_central_lower_limit_species(1) = 'h1'
-    xa_central_lower_limit(1) = 1d-3
+    ! stop when timestep is too small
+     min_timestep_limit = 1e6 ! in seconds
 
   ! wind
 
