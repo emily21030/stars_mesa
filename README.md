@@ -1,6 +1,6 @@
 MESA practicals for the graduate Stars (AST1410) course at UofT.
 
-### MESA Practical 3 (due Mar 8) - [#]()
+### MESA Practical 3 (due Mar 8) - [#879c720](https://github.com/emily21030/stars_mesa/commit/879c720d607e3d1c6262438b28969e48d1ee4ee4)
 Project directories are in [docker_work/isochrones](https://github.com/emily21030/stars_mesa/tree/main/docker_work/isochrones), along with plots for submission in [docker_work/plots](https://github.com/emily21030/stars_mesa/tree/main/docker_work/plots) and the script for generating plots, [docker_work/scripts/isochrones.ipynb](https://github.com/emily21030/stars_mesa/tree/main/docker_work/scripts/isochrones.ipynb).
 
 ### MESA Practical 2 (due Feb 15) - [#56302b7](https://github.com/emily21030/stars_mesa/commit/56302b78f1c364164fa61f2649daa75d02ba09ae)
